@@ -36,18 +36,4 @@ public class Person extends BaseEntity {
     @NotBlank
     @Size(max = 120)
     private String password;
-
-    @NotBlank
-    @Size(max = 11)
-    private String phoneNumber;
-
-    private Integer age;
-
-    @NotBlank
-    @Size(max = 50)
-    private String city;
-
-    @NotBlank
-    @Size(max = 120)
-    private String address;
 }
